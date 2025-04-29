@@ -1,0 +1,10 @@
+github.com/i9si-sistemas/assert v0.0.0-20241226143514-2239efdffece h1:dXX3IVWmQl4sRUpBPR0VaD4ev70lbK00a4gt/VZZHIA=
+github.com/i9si-sistemas/assert v0.0.0-20241226143514-2239efdffece/go.mod h1:xRwY4u6NZZjNLlgdBSaNESQEUSJ4CxuT4lWQAbvwfBQ=
+github.com/i9si-sistemas/bitset v0.0.0-20250425133431-3da544fa4231 h1:79Hr4RvaooVFUVSKaOUTLKObBLz7mveOsqaHHF3ab6w=
+github.com/i9si-sistemas/bitset v0.0.0-20250425133431-3da544fa4231/go.mod h1:nW81cKCAktXODdl1qLRXERRcUx5S8F1zqVyquEDDIi0=
+github.com/i9si-sistemas/crc-16 v0.0.0-20250429122243-06c78dd97aa9 h1:0tdwCdigH/XdILCbiQlEA1nBccC4HmiiFjHyk4pX0ME=
+github.com/i9si-sistemas/crc-16 v0.0.0-20250429122243-06c78dd97aa9/go.mod h1:Nts2eGzegmFwMiX2oGK2HPVd70cWhJyx60S2BWOU9uo=
+github.com/i9si-sistemas/qrcode v0.0.0-20250428172518-46dac12903e7 h1:BsoQZYD7bdP1MgUtfN9mlhichBbXzdERVOW2WbPlQCw=
+github.com/i9si-sistemas/qrcode v0.0.0-20250428172518-46dac12903e7/go.mod h1:arcsJZuB7N35N7Hw+Uik+fEFo8Z437cnehbzYT19cic=
+github.com/i9si-sistemas/reedsolomon v0.0.0-20250425143232-90e93d3e9b7e h1:9S+Bo4KjoYOThCj51AOs4DjqfEsOhE2zNZuBavsG84E=
+github.com/i9si-sistemas/reedsolomon v0.0.0-20250425143232-90e93d3e9b7e/go.mod h1:adoLIZwaZRCQuRVyCMrnZqKGPgL76RxXry6/RlUPd6E=

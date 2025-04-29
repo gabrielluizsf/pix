@@ -1,23 +1,23 @@
 package pix
 
 // New generates a Copy and Paste Pix code
-func New(options Options) (string, error) {
+func New(options Options) (copyPaste string,  err error) {
 	if err := validateData(options); err != nil {
 		return "", err
 	}
 
 	data := buildDataMap(options)
-	str := parseData(data)
+	copyPaste = parseData(data)
 
-	str += "6304"
+	copyPaste += "6304"
 
-	crc, err := calculateCRC16(str)
+	crc, err := calculateCRC16(copyPaste)
 
 	if err != nil {
 		return "", err
 	}
 
-	str += crc
+	copyPaste += crc
 
-	return str, nil
+	return copyPaste, nil
 }

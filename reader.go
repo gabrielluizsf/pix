@@ -5,8 +5,7 @@ import "fmt"
 // Read generates a Options struct using a copyPaste PIX code
 func Read(copyPaste string) (Options, error) {
 	data := buildUsingGuideMap(copyPaste, buildDataMap(Options{}))
-	options, err := readDataMap(data)
-	return options, err
+	return readDataMap(data)
 }
 
 type intMap map[int]any

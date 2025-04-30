@@ -6,25 +6,36 @@ import (
 )
 
 func validateData(options Options) error {
-	if options.Key == "" {
+	if isEmpty(options.Key) {
 		return errors.New("key must not be empty")
 	}
 
-	if options.Name == "" {
+	if isEmpty(options.Name) {
 		return errors.New("name must not be empty")
 	}
 
-	if options.City == "" {
+	if isEmpty(options.City) {
 		return errors.New("city must not be empty")
 	}
 
-	if utf8.RuneCountInString(options.Name) > 25 {
+	if !validateRuneCount(options.Name, 25) {
 		return errors.New("name must be at least 25 characters long")
 	}
 
-	if utf8.RuneCountInString(options.City) > 15 {
+	if !validateRuneCount(options.City, 15) {
 		return errors.New("city must be at least 15 characters long")
 	}
 
 	return nil
+}
+
+func isEmpty(str string) bool {
+	return len(str) == 0
+}
+
+func validateRuneCount(
+	str string,
+	length int,
+) bool {
+	return utf8.RuneCountInString(str) < length
 }

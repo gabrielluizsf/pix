@@ -6,5 +6,7 @@ github.com/i9si-sistemas/crc-16 v0.0.0-20250429122243-06c78dd97aa9 h1:0tdwCdigH/
 github.com/i9si-sistemas/crc-16 v0.0.0-20250429122243-06c78dd97aa9/go.mod h1:Nts2eGzegmFwMiX2oGK2HPVd70cWhJyx60S2BWOU9uo=
 github.com/i9si-sistemas/qrcode v0.0.0-20250428172518-46dac12903e7 h1:BsoQZYD7bdP1MgUtfN9mlhichBbXzdERVOW2WbPlQCw=
 github.com/i9si-sistemas/qrcode v0.0.0-20250428172518-46dac12903e7/go.mod h1:arcsJZuB7N35N7Hw+Uik+fEFo8Z437cnehbzYT19cic=
+github.com/i9si-sistemas/qrcode v0.0.0-20250430181842-50929d6875df h1:+JnXTw8G/jPyn6Pvi+Yx2BIbmqVskv60ffRfBlMXC+s=
+github.com/i9si-sistemas/qrcode v0.0.0-20250430181842-50929d6875df/go.mod h1:arcsJZuB7N35N7Hw+Uik+fEFo8Z437cnehbzYT19cic=
 github.com/i9si-sistemas/reedsolomon v0.0.0-20250425143232-90e93d3e9b7e h1:9S+Bo4KjoYOThCj51AOs4DjqfEsOhE2zNZuBavsG84E=
 github.com/i9si-sistemas/reedsolomon v0.0.0-20250425143232-90e93d3e9b7e/go.mod h1:adoLIZwaZRCQuRVyCMrnZqKGPgL76RxXry6/RlUPd6E=

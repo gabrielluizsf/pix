@@ -5,7 +5,7 @@ go 1.24.1
 require (
 	github.com/i9si-sistemas/assert v0.0.0-20241226143514-2239efdffece
 	github.com/i9si-sistemas/crc-16 v0.0.0-20250429122243-06c78dd97aa9
-	github.com/i9si-sistemas/qrcode v0.0.0-20250428172518-46dac12903e7
+	github.com/i9si-sistemas/qrcode v0.0.0-20250430181842-50929d6875df
 )
 
 require (

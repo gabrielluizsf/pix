@@ -46,15 +46,17 @@ func buildUsingGuideMap(copyPaste string, guide intMap) intMap {
 	data := make(intMap)
 
 	k := 0
+	convert := func(cp string, k *int, iv int) int {
+		value, _ := strconv.Atoi(cp[*k : *k+iv])
+		*k += 2
+		return value
+	}
 	for k < len(copyPaste) {
-		index, _ := strconv.Atoi(copyPaste[k : k+2])
-		k += 2
+		index := convert(copyPaste, &k, 2)
+		length := convert(copyPaste, &k, 2)
 
-		lenght, _ := strconv.Atoi(copyPaste[k : k+2])
-		k += 2
-
-		value := copyPaste[k : k+lenght]
-		k += lenght
+		value := copyPaste[k : k+length]
+		k += length
 
 		v := reflect.ValueOf(guide[index])
 		switch v.Kind() {
